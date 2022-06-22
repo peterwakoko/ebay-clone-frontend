@@ -1,0 +1,267 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before,*::after{
+    box-sizing: inherit;
+}
+
+*{
+    /* border: 2px solid red; */
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.top--navbar{
+
+    display: flex;
+    align-items: center;
+    padding: 2px;
+
+}
+.top--navbar ul{
+    position: relative;
+    width: 90%;
+    margin-left: 80px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.right{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+
+.top--navbar ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.top--navbar ul li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #121212;
+}
+
+.top--navbar ul li a:hover{
+text-decoration: underline;
+}
+
+.line1{
+    height: 1px;
+        background-color: #ccc;
+        border: none;
+}
+
+.line2{
+    height: 1px;
+        background-color: #ccc;
+        border: none;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.search{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+    height: 90px;
+}
+
+.btn{
+    background-color: blue;
+    color: white;
+    padding: 10px;
+    width: 120px;
+    margin-left: 685px;
+    border: none;
+    height: 40px;
+    font-size: 15px;
+}
+
+.logo{
+    margin-left: 40px;
+    cursor: pointer;
+    margin-left: 50px;
+    margin-right: 40px;
+
+}
+
+.my-search{
+    margin-right: 10px;
+    width: 700px;
+    padding: 19px;
+    height: 40px;
+    border: 2px solid black;
+}
+
+.fa-magnifying-glass{
+    margin-left: -706px;
+    color: rgb(143, 134, 134);
+    padding-left: 1px;
+}
+
+.advanced{
+    margin-left:10px;
+    color: rgb(143, 134, 134);
+    font-size: 13px;
+}
+
+
+.website--navbar {
+    display: flex;
+    padding: 5px;
+}
+
+.website--navbar ul{
+    padding: 3px;
+    margin-left: 110px;
+    justify-content: space-between;
+}
+
+.website--navbar ul li{
+    padding: 10px;
+    list-style-type: none;
+    display: inline;
+}
+
+.website--navbar ul li a{
+    text-decoration: none;
+    color: #3b3b3b;
+    font-size: 13px;
+}
+
+.website--navbar ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.fa-heart{
+font-size: 12px;
+color: #3b3b3b;
+margin-right: -9.2px;
+}
+
+.background1{
+    position: relative;
+    background-image: url(images/bg-shop.jpg);
+    filter: blur(.5px);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    padding: 20px;
+    padding-left: 60px;
+    padding-top: 90px;
+    letter-spacing: 1px;
+}
+
+.background1 .tnc{
+    position: absolute;
+    bottom: 15px;
+    color: black;
+    font-size: 13px;
+    color: #fff;
+}
+
+/* .background1 .p1{
+    font-size: 35px;
+} */
+
+.background1 .arrow{
+    padding: 5px;
+    margin-left: -60px;
+    margin-bottom: -30px;
+}
+
+.background1 .btn-2{
+    padding: 10px;
+    padding-left: 10px;
+    width: 160px;
+    border: 1px solid black;
+    background-color: #fff;
+    text-align: left;
+    font-size: 14px;
+    color: #3b3b3b;
+    cursor: pointer;
+}
+
+.home{
+    text-decoration: underline !important;
+    color: #121212!important;
+    cursor: text;
+}
+
+.background2{
+    position: relative;
+    background-color: #EDD9A3;
+    height: 120px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.background2 .covidMessage{
+    position: absolute;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    margin: 10px;
+}
+
+.background2 .btn-3{
+    position: absolute;
+    /* padding: 20px; */
+    padding-right: 30px;
+    width: 140px;
+    border: 1px solid black;
+    background-color: #fff;
+    /* text-align: left; */
+    font-size: 16px;
+    color: #3b3b3b;
+    height: 40px;
+    right: 10px;
+    top: 40px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.background2 .arrow{
+    position: absolute;
+    right: 2px;
+    bottom: 15px;
+    padding-right: 8px;
+    cursor: pointer;
+}
+
+/* .tnc2{
+    color: black;
+    font-size: 13px;
+    position: absolute;
+    bottom: 2px;
+    left: 30px;
+} */
+
+/* .promo{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    bottom: 10px;
+    right: 500px;
+    top: 20px;
+} */
+
+.productList img{
+    width: 150px;
+    border-radius: 90%;
+    display: flex;
+}
+
+.products{
+    margin: 50px;
+}
